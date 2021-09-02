@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+ 
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Amit Bansal</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="icon" href="logo.jpg" type="image/x-icon">
+	
+	<script>
+
+		function openlinkedin() 
+		{
+			window.open("https://www.linkedin.com/in/amittbansal");
+		}
+		
+		function opengithub ()
+		{
+			window.open("https://github.com/amittbansal");
+		}
+		
+		function toggleproMore() 
+		{
+			if(document.getElementById("proarea").style.display == 'none') 
+			{
+				document.getElementById("proarea").style.display = 'block';
+				document.getElementById("proMore").innerHTML = 'Reduce.......';
+			}
+			else 
+			{
+				document.getElementById("proarea").style.display = 'none';
+				document.getElementById("proMore").innerHTML = 'Read More.......';        
+			}
+		}
+		
+		function togglebaMore() 
+		{
+			if(document.getElementById("baarea").style.display == 'none') 
+			{
+				document.getElementById("baarea").style.display = 'block';
+				document.getElementById("baMore").innerHTML = 'Reduce.......';
+			}
+			else 
+			{
+				document.getElementById("baarea").style.display = 'none';
+				document.getElementById("baMore").innerHTML = 'Read More.......';        
+			}
+		}
+		
+		function togglemMore() 
+		{
+			if(document.getElementById("umarea").style.display == 'none') 
+			{
+				document.getElementById("umarea").style.display = 'block';
+				document.getElementById("mMore").innerHTML = 'Reduce.......';
+			}
+			else 
+			{
+				document.getElementById("umarea").style.display = 'none';
+				document.getElementById("mMore").innerHTML = 'Read More.......';        
+			}
+		}
+
+        function togglearMore() 
+        {
+            if(document.getElementById("ararea").style.display == 'none') 
+            {
+                document.getElementById("ararea").style.display = 'block';
+                document.getElementById("arMore").innerHTML = 'Reduce.......';
+            }
+            else 
+            {
+                document.getElementById("ararea").style.display = 'none';
+                document.getElementById("arMore").innerHTML = 'Read More.......';        
+            }
+        }
+		
+	</script>
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html"><h1>Amit</h1></a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li><a href="index.html#home" title="home">Home</a></li>
+                <li><a href="index.html#about" title="about">About</a></li>
+                <li><a href="index.html#works" title="works">Works</a></li>
+                <li class="current"><a href="project.html" title="blog">Projects</a></li>
+                <li><a href="index.html#contact" title="contact">Contact</a></li>	
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="IMG_5721.JPG"  data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hello There</h3>
+
+                <h1>I am Amit Bansal.</h1>
+				<h4>Ambition, dreamer and put ability to achieve goals.</h4>
+				<h6 style="color:white;">
+					 End is not the end, in fact E.N.D. means " Effort Never Dies " 
+				</h6>
+
+                <div class="home-content__buttons">
+                    
+					<form>
+						<input type="button" value="Linkedin" class="smoothscroll btn btn--stroke" onclick="openlinkedin()">
+						<input type="button" value="GitHub" class="smoothscroll btn btn--stroke" onclick="opengithub()">
+					</form>
+				</div>
+
+                <div class="home-content__scroll">
+					<div class="mouse-icon">
+						<div class="wheel"></div>
+					</div>
+                </div>
+
+            </div>
+
+        </div> <!-- end home-content -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+       <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h1>About Me</h1>
+                <p>I am a Software Engineer, have vast knowledge of programming and computer applications, with experience in high-volume environments with strong analytical communication and organizational abilities</p>
+            </div>
+        </div>
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>Hi!</h3>
+                <p align="justify">
+                I am always passionate about programming and learning new emerging technologies as it give me the freedom to express myself oand execute my own thoughts. I am one who always use to challenge himself so i can come up front with strong thinking and logical abilities. Good command on verbal and written communication skills, have extensive problem-solving skills with ability to multi task under various stages of product development and analysis. Conceptualize, logical thinking and systematic approach to problem-solving and propose solutions.So far i explored myself enough but at the same time you always do better and touches the endless sky if you have an motivation to work hard and move forward. 
+                </p>
+            </div>
+
+            <div class="col-six tab-full right">
+                <img src="IMG_6239.jpg">
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full left">
+                <a href="Resume-amit.pdf" class="btn btn--primary full-width">Download My CV</a>
+            </div>
+            <div class="col-six tab-full right">
+                <a href="#contact" class="btn full-width">Hire Me Now</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->
+    </section>
+		
+	<section id="works" class="s-about target-section">
+		
+		
+		<div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>My Work Experience.</h3>
+            </div>
+
+            <div class="col-six tab-full left">
+                <div class="timeline">
+                   <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">December 2019 - Present</p>
+                            <h3>Cognizant</h3>
+                            <h5>Technical Lead</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p align="justify"> 
+                                <ul align="justify"> 
+                                    <li>Build Microservice APIs using Spring boot to consume and deliver large scale of confidential data.</li>
+                                    <li>Organize/coordinate multiple LOB deliveries within technology priority and deliver commitment.</li>
+                                    <li>Support Business-As-Usual (BAU) for existing applications, support business risk and finance regulatory reporting.</li>
+                                    <li>Establish best practices on distribution & consumption of Microservice APIs.</li>
+                                    <li>Responsible for implementing UI using Angular.</li>
+                                </ul>   
+                            </p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">June 2017 - December 2019</p>
+                            <h3>CGI</h3>
+                            <h5>Consultant</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p align="justify"> 
+                                <ul align="justify"> 
+                                    <li>Involved in analysis, specification, design, and implementation and testing phases of Software Development Life Cycle SDLC.</li>
+                                    <li>Working on Informatica Workflow Monitor/Manager and Power center developer such as configuring the DB, Checking session and
+                                        Workflow logs and motoring the workflows.</li> 
+                                    <li>Enhance and work on the Unix Shell Scripts and ksh/bash shell to automate backend report and other jobs.</li>
+                                    <li>Scheduling jobs on AutoSys scheduler including monitoring and admin task on the UNIX servers.</li>
+                                    <li>Ensured compliance of client SLAs and creating reports using automated tool (BOXI) for management.</li>
+                                </ul>   
+                            </p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Feb 2016 – May 2017</p>
+                            <h3>University of South Carolina</h3>
+                            <h5>Graduate Assistant | Developer</h5>
+                        </div>
+                        <div class="timeline__desc">    
+                            <p>
+                                <ul> 
+                                    <li>Developed a high performance computational tool based on python and R to effectively mine the spatiotemporal patterns of people’s 
+                                        experience, needs and opinions.</li> 
+                                    <li>Performed descriptive and multivariate statistical analyses of the processed twitter data using python libraries numpy, skfuzzy etc.</li>
+                                </ul>   
+                            </p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+
+            <div class="col-six tab-full right">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">May 2013 – June 2013</p>
+                            <h3>Saffron e-Services</h3>
+                            <h5>Project Intern</h5>
+                        </div>
+                        <div class="timeline__desc">
+                           <p>
+                                <ul> 
+                                    <li>Assisted a developing team working on a project titled “Social world” that connected social networks and e-learning.</li> 
+                                    <li>Scrutinize & anatomize C# implemented projects to comprehend software development strategies and approaches.</li>
+                                    <li>Used SQL database and ADO.net for its storage and connectivity purposes, Worked on GUI Part of various models with the help of ASP.Net and
+                                        AJAX</li> 
+                                    <li>Tested & debugged various modules to find out bugs and removed them under the guidance of the testing team.</li>
+                                </ul>   
+                            </p>
+                        
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">June 2012 – July 2012</p>
+                            <h3>Silicon Star Info India Private Ltd.</h3>
+                            <h5>Software developer Intern</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>
+                                <ul> 
+                                    <li>Worked as a developer intern with a team to automate some of the company payroll management department work.</li> 
+                                    <li>Developed various modules including payroll computation and reports generation module in Visual basic and C++.</li>
+                                    <li>Optimized code of the modules to reduce the execution time and maximize the efficiency.</li>
+                                </ul>   
+                            </p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
+
+        </div> <!-- end about-content timeline -->
+
+    </section> <!-- end about -->
+    
+   
+    <!-- testimonials
+    ================================================== -->
+    <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h2 style="color:white;">AWARDS AND EXTRACURRICULAR</h2>
+				
+            </div>
+        </div>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <div class="testimonials__author h06">
+                        Business Analytics club
+                        <span style="color:white;">Technical Committee Member</span>
+                    </div>
+                    <p align="justify">This opportunity helps me to develop excellent data-driven decision-making skills. 
+                    <p id="baarea" style="display: none"> While working for the club responsibilities like working on data set for analytic purpose, handle technical duties regarding software availability, online existence of club, organize guest lectures give me opportunity to work in analytics world and identify my love toward it.</p>
+                    <a id="baMore" onclick="togglebaMore()" href="javascript:void(0);">Read More.......</a>
+                    </p>
+                    
+                    
+                </div>
+
+                <div class="testimonials__slide">
+                    <div class="testimonials__author h06">
+                        Public Relation officer (PRO) 
+                        <span style="color:white;">Indian Student Organization</span>
+                    </div>
+                    <p>I worked as a public relation officer for Indian student organization at University of South Carolina.
+                    <p>
+                    <p id="proarea" style="display: none"> Responsible to present identity of an organization in outside world and handle all official conversation on behalf of organization.This responsibility not only enhance my communication skills but also helps me to come out as a more mature person.</p>
+                    <a id="proMore" onclick="toggleproMore()" href="javascript:void(0);">Read More.......</a>
+                    </p>
+                    </p>
+                </div>
+
+                <div class="testimonials__slide">
+                    <div class="testimonials__author h06">
+                        Awards - Recognition 
+                        <span style="color:white;">Cooperate World</span>
+                    </div>
+                    <p>
+                        <ul id="ararea" style="display: none">
+                            <li>Year 2019, - STAR AWARD - Recognition/  
+                                Appreciation awarded by manager within the organization.
+                            </li>
+                            <li>Year 2018, - LIVE (Leadership, initiative and  
+                                Value ) AWARD - Appreciation by colleagues and team lead for indulging very well in team, culture.
+                            </li>
+                        </ul>
+                        <a id="arMore" onclick="togglearMore()" href=" 
+                               javascript:void(0);">Read More.......</a>         
+                    </p>
+                </div>
+
+                <div class="testimonials__slide">
+                     <div class="testimonials__author h06">
+                        Awards - Medals
+                        <span style="color:white;">State Level Compitition - India</span>
+                    </div>
+                        <p>In state level competition “ignition”  for two consecutive years - 
+                        <p id="marea" style="display: none"> 
+                            <ul id="umarea" style="display: none">
+                                <li>Year 2013, - website development and we won the gold medal out of 87 team participate in the event.</li>
+                                <li>Year 2012, - software development, we were on the second spot among 42 teams and awarded silver medal for the work.</li>
+                            </ul>
+                            <a id="mMore" onclick="togglemMore()" href="javascript:void(0);">Read More.......</a>
+                        </p>
+                        </p>
+                    </div>
+                
+            </div> <!-- end testimonials__slider -->
+        </div> <!-- end testimonials -->
+
+    </div> <!-- end s-testimonials -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer id="contact">
+        <div class="row">
+            <div class="col-full">
+                <div class="row narrow section-intro">
+                    <div class="col-full">
+                        <h3>Contact</h3>
+                        <h1><font color="white">Say Hello.</font></h1>
+                        <h6><font color="white"; size="2"; text-transform= "lowercase">Phone : +1(803)446-1274 | Email : amittbansal1606@gmail.com</font></h6>
+                    </div>
+                 </div>
+
+                <ul class="footer-social">
+                    <li><a href="https://www.facebook.com/amittbansal" target="_blank">
+                        <i class="im im-facebook" aria-hidden="true"></i>
+                        <span>Facebook</span>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/amit._bansal/?hl=en" target="_blank">
+                        <i class="im im-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/amittbansal" target="_blank">
+                        <i class="im im-linkedin" aria-hidden="true"></i>
+                        <span>Linkedin</span>
+                    </a></li>
+                    <li><a href="https://github.com/amittbansal" target="_blank">
+                        <i class="im im-github" aria-hidden="true"></i>
+                        <span>Github</span>
+                    </a></li>
+                </ul>
+                    
+            </div>
+        </div>
+        <div class="copyright">
+            <span><font color="black">© Copyright Hola 2017 | </font></span> 
+            <span><font color="black">Design by styleshout </font></span> 
+        </div>
+    </footer> <!-- end footer -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
